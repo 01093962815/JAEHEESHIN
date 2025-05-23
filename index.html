@@ -14,6 +14,8 @@
     <link rel="apple-touch-icon" href="./images/파비콘(꽃).gif">
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/aos.css">
     <link rel="stylesheet" href="./css/app.css">
 
     <title>신재희 포트폴리오</title>
@@ -256,7 +258,7 @@
         </section>
     -->
         <section id="card">
-            <div class="container">
+            <div class="container"data-aos="flip-left">
                 <div class="row">
                     <div class="card col-lg-3 col-md-6 col-sm-12">
                         <img src="./images/4.jpg" class="card-img-top mt-3" alt="">
@@ -316,8 +318,8 @@
         </section>
         
         <section id="portfolio">
-            <div class="container mt-5">
-                <h2 class="text-center mb-5">Design & Video Portfolio</h2>
+            <div class="container mt-5" >
+                <h2 class="text-center mb-5" data-aos="fade-up">Design & Video Portfolio</h2>
                 <input type="text" id="searchInput" class="form-control" placeholder="검색어를 입력하세요....">
 
 
@@ -329,7 +331,7 @@
                     <button type="button" class="mt-5 btn btn-primary filter-btn" data-filter="figma">피그마</button>
                 </div>
                 <!-- 포트폴리오 아이템 -->
-                 <div class="row mt-5" id="portfolio-items">
+                 <div class="row mt-5" id="portfolio-items" >
                     <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item" data-category="design">
                         <img src="./images/1.jpg" alt="디자인 1" class="img-fluid" data-bs-toggle="modal" data-bs-target="#designModal1">
                         <h4 class="text-center mt-2">디자인 프로젝트 1</h4>
@@ -371,6 +373,240 @@
             </div>
         
         </section>
+
+
+        <section id="tabs" class="tabs section my-5">
+            <div class="container section-title" data-aos="fade-up">
+                <h2 class="text-center">재히의 포트폴리오 ୨୧ ❛ᴗ❛✧ </h2>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="container" data-aos="fade-up" 
+            data-aos-delay="200">
+            <div class="row">
+                <div class="col-lg-3">
+                    <ul class="nav nav-tabs flex-column">
+                        <li class="nav-item"><a class="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-1">상세 페이지 1</a></li>
+                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">상세 페이지 2</a></li>
+                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-3">상세 페이지 3</a></li>
+                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-4">상세 페이지 4</a></li>
+                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-5">상세 페이지 5</a></li>
+                    </ul>
+
+                <div>
+                    
+                </div>
+                    
+
+                </div>
+                <div class="col-lg-9 mt-5 mt-lg-0">
+                    <div class="tab-content">
+                        <div class="tab-pane active show" id="tabs-tab-1">
+                            <div class="row">
+                                    <div class="col-lg-8 detail order-2 order-lg-1">
+                                        <h3> 상세 페이지 설명</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, vel. Ipsum non nobis molestiae quod asperiores ex reprehenderit nisi, magnam praesentium earum nemo atque culpa blanditiis ducimus. Saepe, commodi fugiat?</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <a href="./images/1.jpg"> <img src="./images/1.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                            </div>
+                        
+                    </div>
+                    <div class="tab-pane" id="tabs-tab-2">
+                            <div class="row">
+                                    <div class="col-lg-8 detail order-2 order-lg-1">
+                                        <h3> 상세 페이지 설명 2</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, vel. Ipsum non nobis molestiae quod asperiores ex reprehenderit nisi, magnam praesentium earum nemo atque culpa blanditiis ducimus. Saepe, commodi fugiat?</p>
+
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/1.jpg" class="img-fluid" alt="">
+                                    </div>
+                            </div>
+                        
+                    </div>
+                    <div class="tab-pane" id="tabs-tab-3">
+                            <div class="row">
+                                    <div class="col-lg-8 detail order-2 order-lg-1">
+                                        <h3> 상세 페이지 설명 3</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, vel. Ipsum non nobis molestiae quod asperiores ex reprehenderit nisi, magnam praesentium earum nemo atque culpa blanditiis ducimus. Saepe, commodi fugiat?</p>
+
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/3.jpg" class="img-fluid" alt="">
+                                    </div>
+                            </div>
+                        
+                    </div>
+                    <div class="tab-pane" id="tabs-tab-4">
+                            <div class="row">
+                                    <div class="col-lg-8 detail order-2 order-lg-1">
+                                        <h3> 상세 페이지 설명 4</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, vel. Ipsum non nobis molestiae quod asperiores ex reprehenderit nisi, magnam praesentium earum nemo atque culpa blanditiis ducimus. Saepe, commodi fugiat?</p>
+
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/1.jpg" class="img-fluid" alt="">
+                                    </div>
+                            </div>
+                        
+                    </div>
+                    <div class="tab-pane" id="tabs-tab-5">
+                            <div class="row">
+                                    <div class="col-lg-8 detail order-2 order-lg-1">
+                                        <h3> 상세 페이지 설명 5</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, vel. Ipsum non nobis molestiae quod asperiores ex reprehenderit nisi, magnam praesentium earum nemo atque culpa blanditiis ducimus. Saepe, commodi fugiat?</p>
+
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/1.jpg" class="img-fluid" alt="">
+                                    </div>
+                            </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+        </section>
+
+<!--
+        <section id="tab1 my-5">
+            <div class="container section-title" data-aos="fade-up">
+                <h2 class="text-center">재히의 포트폴리오</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="container" data-aos="fade-up" 
+            data-aos-delay="200">
+            <div class="row">
+                <div class="col-lg-3">
+                    <ul class="nav nav-tabs flex-column">
+                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-6">상세 페이지 6</a></li>
+                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-7">상세 페이지 7</a></li>
+                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-8">상세 페이지 8</a></li>
+                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-9">상세 페이지 9</a></li>
+                        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-10">상세 페이지 10</a></li>
+                    </ul>
+
+                <div>
+                    
+                </div>
+                    
+
+                </div>
+                <div class="col-lg-9 mt-5 mt-lg-0">
+                    <div class="tab-content">
+                        <div class="tab-pane" id="tabs-tab-6">
+                            <div class="row">
+                                    <div class="col-lg-8 detail order-2 order-lg-1">
+                                        <h3> 상세 페이지 설명 6</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, vel. Ipsum non nobis molestiae quod asperiores ex reprehenderit nisi, magnam praesentium earum nemo atque culpa blanditiis ducimus. Saepe, commodi fugiat?</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/1.jpg" class="img-fluid" alt="">
+                                    </div>
+                            </div>
+                        
+                    </div>
+                    <div class="tab-pane" id="tabs-tab-2">
+                            <div class="row">
+                                    <div class="col-lg-8 detail order-2 order-lg-1">
+                                        <h3> 상세 페이지 설명 2</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, vel. Ipsum non nobis molestiae quod asperiores ex reprehenderit nisi, magnam praesentium earum nemo atque culpa blanditiis ducimus. Saepe, commodi fugiat?</p>
+
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/1.jpg" class="img-fluid" alt="">
+                                    </div>
+                            </div>
+                        
+                    </div>
+                    <div class="tab-pane" id="tabs-tab-3">
+                            <div class="row">
+                                    <div class="col-lg-8 detail order-2 order-lg-1">
+                                        <h3> 상세 페이지 설명 3</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, vel. Ipsum non nobis molestiae quod asperiores ex reprehenderit nisi, magnam praesentium earum nemo atque culpa blanditiis ducimus. Saepe, commodi fugiat?</p>
+
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/3.jpg" class="img-fluid" alt="">
+                                    </div>
+                            </div>
+                        
+                    </div>
+                    <div class="tab-pane" id="tabs-tab-4">
+                            <div class="row">
+                                    <div class="col-lg-8 detail order-2 order-lg-1">
+                                        <h3> 상세 페이지 설명 4</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, vel. Ipsum non nobis molestiae quod asperiores ex reprehenderit nisi, magnam praesentium earum nemo atque culpa blanditiis ducimus. Saepe, commodi fugiat?</p>
+
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/1.jpg" class="img-fluid" alt="">
+                                    </div>
+                            </div>
+                        
+                    </div>
+                    <div class="tab-pane" id="tabs-tab-5">
+                            <div class="row">
+                                    <div class="col-lg-8 detail order-2 order-lg-1">
+                                        <h3> 상세 페이지 설명 5</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, vel. Ipsum non nobis molestiae quod asperiores ex reprehenderit nisi, magnam praesentium earum nemo atque culpa blanditiis ducimus. Saepe, commodi fugiat?</p>
+
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="./images/1.jpg" class="img-fluid" alt="">
+                                    </div>
+                            </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+        </section>
+-->
+    
+        <section id="about" class="about section my-5">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+                        <img src="./images/4.jpg" class="img-fluid" alt="">
+                        <a href="https://youtube.com/watch?v=YH_V0ImCjnE" class="glightbox pulsating-play-btn">영상</a>
+                    </div>
+                    <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Hello Centum</h3>
+                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repellat quasi ex, neque eligendi quas beatae ratione? Laborum corrupti, quibusdam consectetur in reiciendis commodi libero quasi odio, aut rerum magnam.</p>
+                        <ul>
+                            <li><i class="bi bi-check2-all"></i><span>Lorem ipsum dolor sit amet consectetur adipisicing.</span></li>
+
+                            <li><i class="bi bi-check2-all"></i><span>Lorem ipsum dolor sit amet consectetur adipisicing.</span></li>
+
+                            <li><i class="bi bi-check2-all"></i><span>Lorem ipsum dolor sit amet consectetur adipisicing.</span></li>
+                        </ul>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dicta incidunt voluptatibus voluptas! Qui, sapiente aperiam iusto delectus eveniet reiciendis deleniti. Amet, illum vel maiores sit pariatur ratione! Quas, ea?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
     </main>
 
     <section id="modal-section">
@@ -483,6 +719,8 @@
         </div>
     </section>
 
+
+
     <footer class="footer mt-auto py-3 bg-dark">
         <div class="container text-center text-white">
             <a style="text-decoration: none; color: white;" href="#"><span>Copyleft 2025 신재희</span></a>
@@ -490,6 +728,8 @@
     </footer>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/glightbox.min.js"></script>
+    <script src="./js/aos.js"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>
